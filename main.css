@@ -1,0 +1,167 @@
+.header {
+  background: #2d2524;
+}
+
+.header-table {
+  width: 100%;
+  background: #2d2524;
+  position: fixed;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-area {
+  text-align: center;
+  background: #2d2524;
+  margin: 0 auto;
+}
+
+.header-area img {
+  height: 50px;
+}
+
+.main-table {
+  width: 100%;
+  height: 80vh;
+  background: url(./chris-slupski-tCM6cQjIQ7Q-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Confirm-box {
+  width: 100%;
+  padding: 80px 50px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.Confirm-box tr {
+  text-align: left;
+}
+
+.Confirm-box td {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.btn-content {
+  font-weight: bold;
+  background: #0FCC41;
+  border-radius: 30px;
+  color: #fff;
+  padding: 4px 20px;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn-content a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-area {
+  margin: 80px 60px;
+}
+
+.btn-area tr {
+  height: 50px;
+  cursor: pointer;
+}
+
+.footer-table {
+  width: 100%;
+  background: #262626;
+  color: #ffffff;
+}
+
+.footer-table tr td {
+  padding: 20px 20px 0px;
+  text-align: center;
+}
+
+.sns-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.sns-icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  width: 25px;
+  height: 25px;
+}
+
+.sns-box {
+  margin: 0 auto;
+  padding: 20px 10px 30px;
+}
+
+.sns-box tr {
+  background: #262626;
+  color: #ffffff;
+  width: 100%;
+}
+
+.sns-box tr a {
+  cursor: pointer;
+}
+
+.margin-box {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-text {
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-text td {
+  padding: 10px 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .btn-area {
+    margin: 80px auto;
+  }
+  .Confirm-box td {
+    font-size: 20px;
+  }
+  .btn-content {
+    padding: 4px 20px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .btn-area {
+    margin: 70px auto;
+  }
+  .Confirm-box {
+    padding: 80px 30px;
+  }
+  .Confirm-box td {
+    font-size: 18px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+body {
+  background: #262626;
+}
+/*# sourceMappingURL=main.css.map */
